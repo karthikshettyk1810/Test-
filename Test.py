@@ -6,7 +6,7 @@ import subprocess
 app = Flask(_name_)
 # i am learning
 @app.route('/htop')
-def htop():
+def sample():
     username = os.getenv("USER", "codespace-user")
     ist_time = datetime.datetime.utcnow() + datetime.timedelta(hours=5, minutes=30)
     try:
